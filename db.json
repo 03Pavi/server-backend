@@ -1,0 +1,45 @@
+{
+    "academic_group": {
+      "uuid": "095be615-a8ad-4c33-8e9c-c7612fbf6c9f",
+      "name": "G1V1 A1B1 VCE",
+      "academic_element": {
+        "uuid": "095be615-a8ad-4c33-8e9c-c7612fbf6c9f",
+        "type": "subject_version",
+        "abbr": "IYA024",
+        "version": "IYA024-v1",
+        "name_i18n": {
+          "es_ES": "Spanish name",
+          "en_US": "English name"
+        }
+      },
+      "academic_period": {
+        "uuid": "095be615-a8ad-4c33-8e9c-c7612fbf6c9f",
+        "name": "Sem 2024",
+        "start_date": "2024-05-05",
+        "end_date": "2024-10-04",
+        "type": "biannual",
+        "parent_academic_period": {
+          "uuid": "095be615-a8ad-4c33-8e9c-c7612fbf6c9f",
+          "name": "2024-2025",
+          "start_date": "2024-05-05",
+          "end_date": "2025-03-04",
+          "type": "annual"
+        }
+      },
+      "impartation": [
+        {
+          "percentage": 100,
+          "teacher": {
+            "uuid": "095be615-a8ad-4c33-8e9c-c7612fbf6c9f",
+            "firstname": "Carmen",
+            "lastname": "Dominguez",
+            "email": "stub.email@google.com"
+          }
+        }
+      ],
+      "settings": {
+        "sessions_amount": 30,
+        "sessions_per_week": 2
+      }
+    }
+  }
